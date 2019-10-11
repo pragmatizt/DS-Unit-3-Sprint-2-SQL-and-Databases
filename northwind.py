@@ -30,14 +30,14 @@ def most_expensive_supplier():
                                 ON Supplier.ID = Product.ID
                                 ORDER BY UnitPrice DESC"""
 
-print(f'Most Expensive, by supplier:',c.execute(most_expensive_query).fetchall())
+print(f'Most Expensive, by supplier:',c.execute(most_expensive_supplier_query).fetchall())
 
 def unique_products_category():
     unique_products_category_query = """SELECT DISTINCT ProductName, CategoryID
                                     FROM Product
                                     ORDER BY CategoryID DESC
                                     """
-print(f'Most products by category:',c.execute(most_expensive_query).fetchall())
+print(f'Most products by category:',c.execute(unique_products_category_query).fetchall())
 
 # c.close()
 # conn.commit()
