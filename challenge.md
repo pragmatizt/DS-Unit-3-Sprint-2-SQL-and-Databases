@@ -131,19 +131,19 @@ interview screening questions (a form you fill when applying for a job):
 - In the Northwind database, what is the type of relationship between the
   `Employee` and `Territory` tables?
   
-  # ANSWER: One to many.  At least from the angle where I would look at it from Region to Employees.  In that regard, each employee would only be assigned to ONE region.  There could be many employees PER region.  Thus, one to many.
+  ### ANSWER: One to many.  At least from the angle where I would look at it from Region to Employees.  In that regard, each employee would only be assigned to ONE region.  There could be many employees PER region.  Thus, one to many.
   
 - What is a situation where a document store (like MongoDB) is appropriate, and
   what is a situation where it is not appropriate?
   
-  # In a business example: a startup, or a company that needs to iterate something quickly would be better served with MongoDB.  It allows for faster applications build, handles more diverse data types, and manages applications more efficiently at scale.  
+  ### ANSWER: In a business example: a startup, or a company that needs to iterate something quickly would be better served with MongoDB.  It allows for faster applications build, handles more diverse data types, and manages applications more efficiently at scale.  
   
-  # MongoDB not be appropriate if what you're building requires secure (ACID compliance) transactions, as it's weak in that regard.  Also, if the database you're building is one where you/your team would need to do a lot of table joins, it is weak in that regard.  It's not as robust when it comes to relational data compared to other solutions. 
+  ### MongoDB not be appropriate if what you're building requires secure (ACID compliance) transactions, as it's weak in that regard.  Also, if the database you're building is one where you/your team would need to do a lot of table joins, it is weak in that regard.  It's not as robust when it comes to relational data compared to other solutions. 
   
 - What is "NewSQL", and what is it trying to achieve?
-# NewSQL describes a new group of databases that have a lot of the functionality of traditional SQL relational databases, while still providing the benefits of NoSQL tech.  
+### NewSQL describes a new group of databases that have a lot of the functionality of traditional SQL relational databases, while still providing the benefits of NoSQL tech.  
 
-# Bringing it back to my response from the last question with regards to MongoDB, NewSQL would mitigate the weaknesses in relational data model that something like MongoDB has.  It would also not have the problems/weaknesses in ACID transactional functionality that MongoDB has.  This, while still having the scalability, speed, and efficiency that NoSQL or MongoDB provides.
+### Bringing it back to my response from the last question with regards to MongoDB, NewSQL would mitigate the weaknesses in relational data model that something like MongoDB has.  It would also not have the problems/weaknesses in ACID transactional functionality that MongoDB has.  This, while still having the scalability, speed, and efficiency that NoSQL or MongoDB provides.
 
 
 ### Part 5 - Turn it in!
