@@ -141,9 +141,9 @@ interview screening questions (a form you fill when applying for a job):
   ### MongoDB not be appropriate if what you're building requires secure (ACID compliance) transactions, as it's weak in that regard.  Also, if the database you're building is one where you/your team would need to do a lot of table joins, it is weak in that regard.  It's not as robust when it comes to relational data compared to other solutions. 
   
 - What is "NewSQL", and what is it trying to achieve?
-### NewSQL describes a new group of databases that have a lot of the functionality of traditional SQL relational databases, while still providing the benefits of NoSQL tech.  
+  ### ANSWER: NewSQL describes a new group of databases that have a lot of the functionality of traditional SQL relational databases, while still providing the benefits of NoSQL tech.  
 
-### Bringing it back to my response from the last question with regards to MongoDB, NewSQL would mitigate the weaknesses in relational data model that something like MongoDB has.  It would also not have the problems/weaknesses in ACID transactional functionality that MongoDB has.  This, while still having the scalability, speed, and efficiency that NoSQL or MongoDB provides.
+  ### Bringing it back to my response from the last question with regards to MongoDB, NewSQL would mitigate the weaknesses in relational data model that something like MongoDB has.  It would also not have the problems/weaknesses in ACID transactional functionality that MongoDB has.  This, while still having the scalability, speed, and efficiency that NoSQL or MongoDB provides.
 
 
 ### Part 5 - Turn it in!
